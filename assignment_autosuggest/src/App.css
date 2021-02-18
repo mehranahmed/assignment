@@ -1,0 +1,77 @@
+.react-autosuggest__input{
+font-size: 16px;
+padding: 9px 10px 0px 10px;
+outline: 0;
+border: 0;
+font-weight: 700;
+min-height: 40px;
+margin-left: 25px;
+width: 90%;
+
+}
+
+.react-autosuggest__input :focus{
+  border: none !important;
+list-style: none;
+}
+.react-autosuggest__container{
+  display: inline-block;
+  position: relative;
+  top: -13px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  width: 50%;
+  padding-bottom: 7px;
+}
+.search-lens{
+  height: 20px;
+  width: 20px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+}
+.airport-name{
+margin: 0;
+padding-top: -12px;
+font-size: 12px;
+line-height: 12px;
+color:  #9b9b9b;
+margin: 6px 0 0 0;
+font-weight: 400;
+
+}
+.react-autosuggest__suggestion--first{
+display: block;
+}
+.suggestion-flex{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 23px;
+line-height: 12px;
+color:  #9b9b9b;
+font-weight: 500;
+align-items: center;
+}
+.suggestion-name{
+font-size: 14px;
+color: black;
+font-weight: 400;
+}
+.search-auto-suggestion{
+  position: relative;
+    margin: 13px;
+}
+.Suggestions{
+color :rgb(155, 155, 155);
+display :block;
+font-family :Lato, sans-serif;
+font-size :12px;
+font-weight: 900;
+height :32px;
+margin-top: -10px;
+text-transform: uppercase;
+}
+.react-autosuggest__suggestions-container{
+  margin-left: -27px;
+}
